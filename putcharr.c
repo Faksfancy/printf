@@ -2,7 +2,6 @@
 
 /**
  *  putcharr - print a character
- *  putcharr- print a character
  *  @c: char input
  *  Return: 1
 */
