@@ -1,4 +1,4 @@
-#include "main,c"
+#include "main.h"
 
 /**
  *  putchar - print a character
@@ -6,7 +6,7 @@
  *  Return: 1
 */
 
-int putchar(char c)
+int putcharr(char c)
 {
 	return (write(1, &c, 1));
 }

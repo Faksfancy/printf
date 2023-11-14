@@ -28,9 +28,9 @@ int _printf(const char *format, ...)
 		{
 			s_num = putts(va_arg(args, char *));
 			n++;
-			num += (s_count - 1);
+			num += (s_num - 1);
 		}
-		else if (format[i + 1] == '%')
+		else if (format[n + 1] == '%')
 		{
 			putcharr('%');
 		}
