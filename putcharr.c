@@ -1,12 +1,12 @@
-#include "main,c"
+#include "main.h"
 
 /**
- *  putchar - print a character
+ *  putcharr - print a character
  *  @c: char input
  *  Return: 1
 */
 
-int putchar(char c)
+int putcharr(char c)
 {
 	return (write(1, &c, 1));
 }
